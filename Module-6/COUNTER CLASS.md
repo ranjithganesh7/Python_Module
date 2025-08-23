@@ -1,0 +1,59 @@
+# Exp.No:30  
+## COUNTER CLASS
+
+---
+
+### AIM  
+To write a Python program to create a `Counter` class that can increment the value of a counter.
+
+---
+
+### ALGORITHM
+
+1. **Start the Program.**
+2. **Define the `Counter` class.**
+   - Initialize the `current` variable with 0.
+3. **Define the `increment()` method** to increment the value of `current` by 1.
+4. **Define the `value()` method** to return the current value of `current`.
+5. **Define the `reset()` method** to reset the `current` value back to 0.
+6. **Create a `counter` object** of the `Counter` class.
+7. **Call the `increment()` method** three times to increment the counter.
+8. **Call the `value()` method** and print the result to show the current counter value.
+9. **End the program.**
+
+---
+
+### PROGRAM
+
+```
+# Reg.No-212223060222
+# Name-Ranjith Ganesh B.
+
+class Counter:
+    def __init__(self):
+        self.current = 0
+
+    def increment(self):
+        self.current += 1
+
+    def value(self):
+        return self.current
+
+    def reset(self):
+        self.current = 0
+
+# Using the Counter class
+counter = Counter()
+counter.increment()
+counter.increment()
+counter.increment()
+
+print(counter.value())  
+```
+
+### OUTPUT
+![image](https://github.com/user-attachments/assets/5f4a1d45-ca66-465f-8a98-347b30c8e2c2)
+
+
+### RESULT
+Thus the program to create a class that can increment the value of a counter has been implemented and executed successfully.
